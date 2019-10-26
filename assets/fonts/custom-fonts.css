@@ -56,15 +56,17 @@
 
 
 @font-face {
-  font-family: 'calisMTbol';
-  src: url('calisMTbol/calisMTbol.eot?#iefix') format('embedded-opentype'),
-    url('calisMTbol/calisMTbol.otf')  format('opentype'),
-	url('calisMTbol/calisMTbol.woff') format('woff'),
-	url('calisMTbol/calisMTbol.ttf')  format('truetype'), 
-	url('calisMTbol/calisMTbol.svg#calisMTbol') format('svg');
-  font-weight: normal;
-  font-style: normal;
+    font-family: 'calisMTbol';
+    src: url('CalisMTBol/CalisMTBol.eot');
+    src: url('CalisMTBol/CalisMTBol.eot?#iefix') format('embedded-opentype'),
+        url('CalisMTBol/CalisMTBol.woff2') format('woff2'),
+        url('CalisMTBol/CalisMTBol.woff') format('woff'),
+        url('CalisMTBol/CalisMTBol.ttf') format('truetype'),
+        url('CalisMTBol/CalisMTBol.svg#CalisMTBol') format('svg');
+    font-weight: bold;
+    font-style: normal;
 }
+
 
 @font-face {
     font-family: 'Calisto MT';

@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'calisMTbol';
+    src: url('CalisMTBol/CalisMTBol.eot');
+    src: url('CalisMTBol/CalisMTBol.eot?#iefix') format('embedded-opentype'),
+        url('CalisMTBol/CalisMTBol.woff2') format('woff2'),
+        url('CalisMTBol/CalisMTBol.woff') format('woff'),
+        url('CalisMTBol/CalisMTBol.ttf') format('truetype'),
+        url('CalisMTBol/CalisMTBol.svg#CalisMTBol') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+

@@ -160,7 +160,7 @@ h3{
 
 .hh-shipping h4 {
     color: #000;
-    font-family: Montserrat-SemiBold;
+  	font-family: 'Montserrat-Bold';
     text-transform: uppercase;
     font-size: 24px;
     margin-top: 56px;
@@ -192,16 +192,62 @@ h3{
 	background-size: cover !important;
 	background-position: center center !important;
 	text-align: center;
-	padding: 55px 118px 55px;
+	padding: 40px 118px 35px;
 	color: #fff;
 	margin-left: -15px;
 	margin-right: -15px;
 }
+.hh-special-offer-sec-grd{
+	max-width: 850px;
+	width: 100%;
+	margin: 0 auto;
+}
+.hh-special-offer-sec-grd ul li{
+	float: left;
+	width: 33.3333%;
+	padding: 0 20px 30px;
+}
+.hh-special-offer-sec-grd ul li:nth-child(3n+1){
+	clear: left;
+}
+.hh-special-offer-sec-grd-col{
+	text-align: center;
+}
+.hh-special-offer-sec-grd-col-img{
+	height: 190px;
+	max-width: 205px;
+	border: 8px solid #567b7d;
+	background-position: center center!important;
+	background-repeat: no-repeat!important;
+	background-size: cover!important;
+	margin: 0 auto 15px;
+}
+.hh-special-offer-sec-grd-col strong{
+	font-size: 36px;
+	line-height: 36px;
+	display: block;
+	color: #ffd79e;
+	font-weight: 600;
+  	font-family: 'calisMTbol';
+  	text-shadow: 7px 3px 6px rgba(2,33,34,0.6);
+}
+.special-offer-con > strong{
+	display: block;
+	font-size: 30px;
+	line-height: 33px;
+	font-weight: normal;
+	font-family: 'calisMTbol';
+	margin-bottom: 25px;
+}
+
+
+
 .special-offer-con h3{
 	font-family: 'Montserrat-SemiBoldItalic';
-	font-size: 24px;
+	font-size: 28px;
+	line-height: 32px;
 	margin-top: 0;
-	margin-bottom: 40px;
+	margin-bottom: 30px;
 }
 .special-offer-con h1{
 	font-family: 'Calisto MT';
@@ -210,19 +256,13 @@ h3{
 	margin-bottom: 55px;
 	text-shadow: 1px 3px 4px #000;
 }
-.special-offer-con strong{
-	font-family: 'Calisto MT';
-	font-size: 36px;
-	display: inline-block;
-	vertical-align: baseline;
-	margin-bottom: 35px;
-}
+
 .special-offer-con span{
 	font-family: 'Montserrat-Medium';
 	font-size: 24px;
 	display: inline-block;
 	vertical-align: baseline;
-	margin-bottom: 10px;
+	margin-bottom: 0;
 }
 .hh-conversation-sec{
 	padding-top: 50px;
@@ -244,7 +284,7 @@ h3{
 	bottom: 48px;
 }
 .conversation-main{
-	padding-right: 630px;
+	padding-right: 582px;
 	position: relative;
 }
 .conversation-dsc{
@@ -525,7 +565,6 @@ h3{
 }
 .hh-ftr-top-links-sec{
 	text-align: center;
-	padding-top: 25px;
 }
 .hh-ftr-top-links-sec strong{
 	display: block;
@@ -549,6 +588,8 @@ h3{
 }
 .hh-pkg-sec-ftr-des{
 	padding-top: 65px;
+	text-align: left;
+	padding-bottom: 24px;
 }
 .pkg-area-con{
 }
@@ -562,8 +603,9 @@ h3{
 	color: #fff;
 }
 .hh-pkg-sec-hdr h2{
-	font-family: 'Calisto MT';
+    font-family: 'calisMTbol';
 	margin-bottom: 100px;
+	margin-top: 0;
 }
 .hh-pkg-grd-controller > ul > li{
 	float: left;
@@ -571,7 +613,7 @@ h3{
 	padding: 0 6px;
 }
 .hh-pkg-grd-col-btm-bdr{
-	background: #096e93;
+	background: #097298;
 	border-radius: 8px;
 	padding-bottom: 4px;
 }
@@ -709,16 +751,17 @@ h3{
 	padding-top: 5px;
 }
 .hh-footer-wrap{
-	background-color: #221f1d;
+	background-color: #1c1e1e;
 	color: #fff;
 	text-align: center;
-	padding: 35px 0 20px;
+	padding: 35px 0 32px;
 	font-size: 14px;
 	line-height: 19px;
 }
 .hh-footer-wrap p{
 	font-size: 14px;
 	line-height: 19px;
+	margin-bottom: 0;
 }
 .hh-ftr-nav ul{
 	padding-bottom: 15px;
@@ -757,7 +800,7 @@ h3{
 	top: 0;
 }
 .hh-copyright{
-	padding-bottom: 5px;
+	padding-bottom: 15px;
 }
 .hh-ftr-nav ul li{
 	padding: 0 25px;
@@ -881,12 +924,6 @@ h3{
 	.special-offer-con {
 		padding: 38px 15px 55px;
 	}
-	.special-offer-con strong br{
-		display: none;
-	}
-	.special-offer-con strong {
-		font-size: 26px;
-	}
 	.conversation-main {
 		padding-right: 370px;
 		position: relative;
@@ -1000,10 +1037,6 @@ h3{
 	}
 	.special-offer-con h3 {
 		margin-bottom: 25px;
-	}
-	.special-offer-con strong {
-		font-size: 22px;
-		line-height: 1.3;
 	}
 	.special-offer-con h1 {
 	    margin-bottom: 30px;
@@ -1125,9 +1158,6 @@ h3{
 	}
 	.left-bg-expend-img{
 		background: transparent!important;
-	}
-	.special-offer-con strong{
-		margin-bottom: 25px;
 	}
 	.conversation-dsc{
 		padding-top: 20px;
