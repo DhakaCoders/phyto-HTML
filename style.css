@@ -60,6 +60,54 @@ img{
 .show-xs{
 	display: none!important;
 }
+.gap-15{
+	height: 15px;
+	clear: both;
+}
+.gap-20{
+	height: 20px;
+	clear: both;
+}
+.gap-25{
+	height: 25px;
+	clear: both;
+}
+.gap-30{
+	height: 30px;
+	clear: both;
+}
+.gap-35{
+	height: 35px;
+	clear: both;
+}
+.gap-40{
+	height: 40px;
+	clear: both;
+}
+.gap-45{
+	height: 45px;
+	clear: both;
+}
+.gap-50{
+	height: 50px;
+	clear: both;
+}
+.gap-55{
+	height: 55px;
+	clear: both;
+}
+.gap-60{
+	height: 60px;
+	clear: both;
+}
+.dft-sec-bg{
+	background-size: cover!important;
+	background-position: center center!important;
+	background-repeat: no-repeat!important;
+}
+.beauty-seekers-img{
+	text-align: center;
+}
 p{
 	margin-bottom: 26px;
 }
@@ -186,6 +234,17 @@ h3{
 
 
 
+.dft-text-module p span{
+	background-size: 100% 100%!important;
+	background-repeat: no-repeat!important;
+    background-position: center center;
+    background-size: contain;
+    display: inline-block;
+    vertical-align: baseline;
+     font-family: 'Montserrat-SemiBold';
+     color: #000;
+     padding: 2px 20px 4px 15px;
+}
 
 .special-offer-con {
 	background-repeat: no-repeat !important;
@@ -302,9 +361,7 @@ h3{
 	left: 30%;
 	z-index: 2;
 }
-.inflammation .hh-line-headding h2 {
-	margin-bottom: 8px;
-}
+
 .hh-health-risks-sec{
 	background-repeat: no-repeat !important;
 	background-size: cover !important;
@@ -405,12 +462,8 @@ h3{
 	height: 26px;
 	z-index: 1;
 }
-.inflammation-dsc{
-	padding-top: 20px;
-	padding-bottom: 34px;
-}
-.inflammation .hh-line-headding {
-	max-width: 100%;
+.smile-img-02{
+	margin-left: -25px;
 }
 .hh-content-sec-7-wrp{
 	padding-top: 50px;
@@ -421,16 +474,22 @@ h3{
 }
 .hh-line-headding {
 	text-align: center;
-	padding-bottom: 20px;
-	max-width: 700px;
-	margin: 0 auto;
+	padding-bottom: 40px;
 }
-.hh-line-headding h2{
+.hh-remove-line-headding{
+	text-align: center;
+	padding-bottom: 30px;
+}
+.hh-line-headding h2,
+.hh-remove-line-headding h2{
 	margin: 0;
 	line-height: 44px;
 	font-family: 'Calisto MT';
-	margin-bottom: 15px;
+	margin-bottom: 7px;
 	color: #27002f;
+}
+.hh-remove-line-headding h2{
+	margin-bottom: 0;
 }
 .hh-line-headding span{
 	display: inline-block;
@@ -562,6 +621,13 @@ h3{
 }
 .hh-offering-hug-img-col{
 	text-align: center;
+	padding-top: 15px;
+}
+.dft-multiline-bg p{
+	margin-bottom: 0;
+}
+.dst-ml-15{
+	margin-left: -15px;
 }
 .hh-ftr-top-links-sec{
 	text-align: center;
@@ -643,6 +709,9 @@ h3{
 	padding-bottom: 20px;
 	padding-top: 25px;
 }
+.hh-pkg-grd-controller > ul > li:nth-child(2) .hh-pkg-grd-ftr{
+	padding-top: 25px;
+}
 .hh-pkg-grd-col-hdr{
 	border-radius: 5px 5px 0 0;
 }
@@ -675,7 +744,7 @@ h3{
 	margin: 0 auto;
 	position: relative;
 	display: table;
-	padding: 15px 20px;
+	padding: 15px;
 }
 .hh-pkg-grd-col-fea-img div{
 	display: inline-block;
@@ -785,6 +854,15 @@ h3{
 .hh-pkg-grd-ftr{
 	padding-left: 30px;
 	padding-right: 5px;
+	padding-top: 20px;
+}
+.hh-add-to-cart-btn-img{
+	margin-bottom: 15px;
+}
+
+.hh-add-to-cart-btn-img a{
+	display: inline-block;
+	vertical-align: baseline;
 }
 .hh-pkg-grd-ftr ul li{
 	position: relative;
@@ -827,6 +905,205 @@ h3{
 	margin-top: -20px;
 	margin-left: -15px;
 }
+
+.dft-sky-bg-sec{
+	padding-top: 40px;
+	padding-bottom: 25px;
+	margin-bottom: 55px;
+}
+
+.dft-testi-review-sec-headding{
+	text-align: center;
+	color: #fff;
+	padding: 15px 15px 20px;
+	background-size: 100% 100%!important;
+	background-repeat: no-repeat!important;
+	margin-bottom: 75px;
+}
+.dft-testi-review-sec-headding h2{
+	margin: 0;
+	font-weight: 600;
+	font-family: 'calisMTbol';
+}
+.dft-blockquote-row-items{
+	padding-bottom: 15px;
+}
+.dft-blockquote-row-item{
+	padding-bottom: 35px;
+}
+.dft-blockquote-row-item blockquote{
+	background: #fbfbfb;
+	padding: 0;
+	border: none;
+	-webkit-box-shadow: 6px 7px 4px -4px rgba(209,209,209,1);
+	-moz-box-shadow: 6px 7px 4px -4px rgba(209,209,209,1);
+	box-shadow: 6px 7px 4px -4px rgba(209,209,209,1);
+	position: relative;
+	margin-bottom: 30px;
+}
+.dft-blockquote-row-item blockquote em{
+	display: block;
+	position: relative;
+	font-style: normal;
+	padding: 25px 40px 20px 28px;
+	font-family: 'MontserratItalic';
+}
+
+
+.dft-blockquote-row-item blockquote em:after{
+	content: "";
+	background: url(assets/images/polygon-btm.png);
+	background-repeat: no-repeat;
+	background-position: center top;
+	left: 60px;
+	right: -2px;
+	width: 27px;
+	height: 24px;
+	position: absolute;
+	top: 100%;
+	z-index: 3;
+}
+.dft-blockquote-ftr{
+	padding: 0 0 0 30px;
+}
+.dft-blockquote-ftr span{
+	display: inline-block;
+	vertical-align: baseline;
+	font-family: 'Montserrat-Medium';
+	font-size: 22px;
+	line-height: 24px;
+	color: #000;
+}
+.dft-blockquote-ftr span strong{
+	font-weight: normal;
+	  font-family: 'Montserrat-Bold';
+	  display: inline-block;
+	  vertical-align: baseline;
+}
+.dft-blockquote-ftr em {
+    display: inline-block;
+    vertical-align: baseline;
+    position: relative;
+    top: -5px;
+    margin-left: 18px;
+}
+.dft-arrow-section{
+	background-size: cover!important;
+	padding: 45px 0 0 0;
+	position: relative;
+}
+.dft-arrow-section > span{
+	display: inline-block;
+	vertical-align: baseline;
+}
+.dft-arrow-section > span:first-of-type{
+	position: absolute;
+    right: 0;
+    top: -162px;
+    z-index: 5;
+    background: transparent;
+}
+.dft-arrow-section > span:last-of-type {
+    position: absolute;
+    left: 0;
+    bottom: -155px;
+    z-index: 5;
+    background: transparent;
+}
+.dft-arrow-section-img-01{
+	text-align: center;
+	padding-bottom: 15px;
+}
+.dft-arrow-section .hh-remove-line-headding h1{
+	font-size: 50px;
+	line-height: 52px;
+    font-family: 'Calisto MT';
+    margin: 0 0 25px 0;
+}
+.dft-arrow-section-img-02{
+	position: absolute;
+	left: -10px;
+	bottom: 0;
+	width: 70%;
+	z-index: 1;
+}
+.dft-arrow-section .dft-text-module{
+	position: relative;
+	z-index: 2;
+}
+.dft-arrow-section .col-sm-6{
+	position: static;
+}
+.dft-arrow-section .row{
+	position: relative;
+}
+
+.potatovegetablesroot-img{
+	text-align: center;
+}
+.dft-beauty-seekers-sec{
+	padding: 45px 0 15px;
+	position: relative;
+}
+.dft-beauty-seekers-sec .arrow-left-top{
+	position: absolute;
+    left: 0;
+    top: -155px;
+    z-index: 5;
+    background: transparent;
+}
+.dft-beauty-seekers-sec .arrow-right-btm{
+	position: absolute;
+    right: 0;
+    bottom: -162px;
+    z-index: 5;
+    background: transparent;
+}
+
+.dft-sucking-test-sec{
+	position: relative;
+	padding: 40px 0 0;
+}
+
+.dft-sucking-test-sec-hdr{
+	text-align: center;
+}
+.dft-sucking-test-sec-col-img{
+	margin-left: -25px;
+}
+.dft-sucking-test-sec-bg-hdr{
+	text-align: center;
+	color: #fff;
+	background-repeat: no-repeat!important;
+	background-size: 100% 100%;
+	padding: 15px 40px 10px;
+	margin-bottom: 20px;
+}
+.dft-sucking-test-sec-bg-hdr h2{
+	margin: 0;
+}
+.dft-sucking-test-sec-hdr h1{
+	font-size: 50px;
+	line-height: 55px;
+	margin-top: 0;
+	margin-bottom: 40px;
+	font-family: 'Calisto MT';
+}
+.dft-sucking-test-sec .arrow-left-top{
+	position: absolute;
+    right: 0;
+    top: -162px;
+    z-index: 5;
+    background: transparent;
+}
+.dft-sucking-test-sec .arrow-right-btm{
+	position: absolute;
+    left: 0;
+    bottom: -155px;
+    z-index: 5;
+    background: transparent;
+}
+
 @media(max-width: 1199px){
 	.hide-md{
 		display: none!important;
