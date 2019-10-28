@@ -1109,7 +1109,9 @@ h3{
     z-index: 5;
     background: transparent;
 }
-
+.dft-sky-sec-2 .smile-couple-img {
+    margin-top: 50px;
+}
 @media(max-width: 1199px){
 	.hide-md{
 		display: none!important;
@@ -1553,6 +1555,9 @@ h3{
 	}
 	.hh-line-headding h2, .hh-remove-line-headding h2{
 		line-height: 1.2;
+	}
+	.dft-sky-sec-2 .smile-couple-img {
+	    margin-top: 0;
 	}
 }
 @media(max-width: 767px){
