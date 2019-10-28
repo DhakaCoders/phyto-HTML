@@ -492,6 +492,9 @@ h3{
 .hh-remove-line-headding h2{
 	margin-bottom: 0;
 }
+.phyto-3-sec.dft-arrow-section .hh-remove-line-headding h1{
+	margin-bottom: 0;
+}
 .hh-line-headding span{
 	display: inline-block;
 	vertical-align: baseline;
@@ -615,14 +618,14 @@ h3{
 	margin-right: -15px;
 }
 .hh-offering-hug-sec{
-	padding: 55px 0 25px;
+	padding: 45px 0 25px;
 }
 .hh-offering-hug-sec .hh-line-headding{
 	padding-bottom: 35px;
 }
 .hh-offering-hug-img-col{
 	text-align: center;
-	padding-top: 30px;
+	padding-top: 35px;
 }
 .dft-multiline-bg p{
 	margin-bottom: 0;
@@ -661,7 +664,7 @@ h3{
 .pkg-area-con{
 }
 .pkg-area-con-bg{
-	padding: 60px 0 40px;
+	padding: 60px 0 50px;
 	background-size: cover!important;
 	background-position: center center;
 }
@@ -671,7 +674,7 @@ h3{
 }
 .hh-pkg-sec-hdr h2{
     font-family: 'calisMTbol';
-	margin-bottom: 100px;
+	margin-bottom: 75px;
 	margin-top: 0;
 }
 .hh-pkg-grd-controller > ul > li{
@@ -916,7 +919,7 @@ h3{
 .dft-testi-review-sec-headding{
 	text-align: center;
 	color: #fff;
-	padding: 15px 15px 20px;
+	padding: 15px 15px 17px;
 	background-size: 100% 100%!important;
 	background-repeat: no-repeat!important;
 	margin-bottom: 75px;
@@ -1036,7 +1039,7 @@ h3{
 	position: relative;
 	z-index: 2;
 }
-.dft-arrow-section .col-sm-6{
+.dft-arrow-section .col-md-6{
 	position: static;
 }
 .dft-arrow-section .row{
