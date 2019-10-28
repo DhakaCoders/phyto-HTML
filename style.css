@@ -257,7 +257,7 @@ h3{
 	margin-right: -15px;
 }
 .hh-special-offer-sec-grd{
-	max-width: 850px;
+	max-width: 844px;
 	width: 100%;
 	margin: 0 auto;
 }
@@ -336,7 +336,7 @@ h3{
 	background-position: center center;
 	background-size: 100% auto;
 	top: 50px;
-	right: -22px;
+	right: -25px;
 	width: 41px;
 	height: 772px;
 	z-index: 3;
@@ -356,7 +356,7 @@ h3{
 	background-repeat: no-repeat !important;
 	background-position: center center !important;
 	top: 0;
-	right: -15px;
+	right: -25px;
 	bottom: 58px;
 	left: 30%;
 	z-index: 2;
@@ -464,6 +464,7 @@ h3{
 }
 .smile-img-02{
 	margin-left: -25px;
+	padding-top: 10px;
 }
 .hh-content-sec-7-wrp{
 	padding-top: 50px;
@@ -621,7 +622,7 @@ h3{
 }
 .hh-offering-hug-img-col{
 	text-align: center;
-	padding-top: 15px;
+	padding-top: 30px;
 }
 .dft-multiline-bg p{
 	margin-bottom: 0;
@@ -660,9 +661,9 @@ h3{
 .pkg-area-con{
 }
 .pkg-area-con-bg{
-	background: url(assets/images/pkg-area-con-bg.jpg);
 	padding: 60px 0 40px;
 	background-size: cover!important;
+	background-position: center center;
 }
 .hh-pkg-sec-hdr{
 	text-align: center;
@@ -932,7 +933,7 @@ h3{
 	padding-bottom: 35px;
 }
 .dft-blockquote-row-item blockquote{
-	background: #fbfbfb;
+	background-color: #fbfbfb;
 	padding: 0;
 	border: none;
 	-webkit-box-shadow: 6px 7px 4px -4px rgba(209,209,209,1);
@@ -940,6 +941,8 @@ h3{
 	box-shadow: 6px 7px 4px -4px rgba(209,209,209,1);
 	position: relative;
 	margin-bottom: 30px;
+	background-position: center 15px!important;
+	background-repeat: no-repeat!important;
 }
 .dft-blockquote-row-item blockquote em{
 	display: block;
@@ -947,6 +950,8 @@ h3{
 	font-style: normal;
 	padding: 25px 40px 20px 28px;
 	font-family: 'MontserratItalic';
+	font-size: 22px;
+	line-height: 28px;
 }
 
 
@@ -1040,6 +1045,7 @@ h3{
 
 .potatovegetablesroot-img{
 	text-align: center;
+	padding-top: 14px;
 }
 .dft-beauty-seekers-sec{
 	padding: 45px 0 15px;
@@ -1136,7 +1142,9 @@ h3{
 		padding: 15px 20px;
 	}
 	.hh-line-headding {
-		max-width: 600px;
+		max-width: 750px;
+		margin-left: auto;
+		margin-right: auto;
 	}
 	.hh-title-headding {
 		max-width: 600px;
@@ -1150,6 +1158,10 @@ h3{
 	}
 	.hh-creditcards{
 		padding-left: 0;
+	}
+	.dft-sucking-test-sec-hdr h1 {
+	    font-size: 36px;
+	    line-height: 41px;
 	}
 }
 @media(max-width: 1099px){
@@ -1234,6 +1246,32 @@ h3{
 	.pkg-area-con-bg{
 		padding-top: 40px;
 	}
+	.special-offer-con > strong br{
+		display: none;
+	}
+	.hh-special-offer-sec-grd-col strong {
+	    font-size: 30px;
+	    line-height: 33px;
+	}
+	.hh-line-headding h2, .hh-remove-line-headding h2{
+		line-height: 1.2;
+	}
+	.dft-arrow-section-img-02{
+		position: static;
+		text-align: center;
+		width: auto;
+		padding-bottom: 25px;
+	}
+	.dft-sucking-test-sec .arrow-left-top,
+	.dft-sucking-test-sec .arrow-right-btm,
+	.dft-beauty-seekers-sec .arrow-left-top,
+	.dft-beauty-seekers-sec .arrow-right-btm,
+	.dft-beauty-seekers-sec .arrow-left-top,
+	.dft-beauty-seekers-sec .arrow-right-btm,
+	.dft-arrow-section > span:first-of-type,
+	.dft-arrow-section > span:last-of-type{
+		display: none;
+	}
 }
 @media(max-width: 900px){
 
@@ -1287,6 +1325,13 @@ h3{
 	}
 	h2 {
 		font-size: 25px;
+	}
+	.dft-sucking-test-sec-hdr h1 {
+	    font-size: 30px;
+	    line-height: 1;
+	}
+	.dft-sucking-test-sec-hdr h1 br{
+		display: none;
 	}
 	p {
 		margin-bottom: 20px;
@@ -1402,9 +1447,6 @@ h3{
 		padding-top: 30px;
 		padding-bottom: 30px;
 	}
-	.hh-line-headding {
-		max-width: 500px;
-	}
 	.hh-title-headding {
 		max-width: 500px;
 	}
@@ -1454,7 +1496,7 @@ h3{
 		background-position: center center;
 		background-size: 100% auto;
 		top: 10%;
-		right: -22px;
+		right: -25px;
 		width: 41px;
 		height: 85%;
 		z-index: 3;
@@ -1477,6 +1519,58 @@ h3{
 	.hh-content-sec-9-wrp .hh-two-grid-lft-img {
 		margin-top: 0;
 		margin-right: 0;
+	}
+	.hh-special-offer-sec-grd ul li{
+		width: 100%;
+		padding-left: 0;
+		padding-right: 0;
+		float: none;
+	}
+	.special-offer-con > strong{
+		font-size: 28px;
+		line-height: 30px;
+	}
+	.dft-sucking-test-sec-bg-hdr h2 br{
+		display: none;
+	}
+	.dft-sucking-test-sec-bg-hdr {
+	    background-size: cover!important;
+	    background-position: center center;
+	    padding-left: 15px;
+	    padding-right: 15px;
+	    margin-left: -10px;
+	    margin-right: -10px;
+	}
+	.dft-sucking-test-sec-col-img {
+	    margin-left: 0;
+	    text-align: center;
+	}
+	.hh-health-risks-sec .health-risks-head h2{
+		margin-bottom: 0;
+	}
+	.hh-health-risks-sec .health-risks-head h2 br{
+		display: none;
+	}
+	.hh-line-headding h2, .hh-remove-line-headding h2{
+		line-height: 1.2;
+	}
+}
+@media(max-width: 767px){
+	.hair-style-img,.beauty-seekers-img,
+	.potatovegetablesroot-img,
+	.smile-couple-img,
+	.smile-img-02{
+		text-align: center;
+		margin-bottom: 25px;
+	}
+	.smile-img-02{
+		margin-left: 0;
+	}
+	.dft-testi-review-sec-headding{
+		background-size: cover!important;
+		background-position: center center!important;
+		margin-bottom: 45px;
+
 	}
 }
 @media(max-width: 639px){
@@ -1567,6 +1661,20 @@ h3{
 	}
 	.hh-health-risks-sec .health-risks-head h2 br {
 		display: none;
+	}
+	.dft-blockquote-row-item blockquote em {
+	    font-size: 18px;
+	    line-height: 24px;
+	    padding-left: 15px;
+	    padding-right: 15px;
+	}
+	.dft-blockquote-ftr {
+	    padding: 0;
+	    text-align: center;
+	}
+	.dft-blockquote-ftr span{
+		display: block;
+		padding-bottom: 5px;
 	}
 }
 @media(max-width: 359px){
