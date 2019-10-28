@@ -1561,8 +1561,6 @@ h3{
 	.hh-line-headding h2, .hh-remove-line-headding h2{
 		line-height: 1.2;
 	}
-}
-@media(max-width: 767px){
 	.hair-style-img,.beauty-seekers-img,
 	.potatovegetablesroot-img,
 	.smile-couple-img,
@@ -1570,6 +1568,9 @@ h3{
 		text-align: center;
 		margin-bottom: 25px;
 	}
+}
+@media(max-width: 767px){
+	
 	.smile-img-02{
 		margin-left: 0;
 	}
