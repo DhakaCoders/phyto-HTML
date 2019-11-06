@@ -294,7 +294,6 @@ h3{
 	display: block;
 	font-size: 30px;
 	line-height: 33px;
-	font-weight: normal;
 	font-family: 'calisMTbol';
 	margin-bottom: 25px;
 }
@@ -322,6 +321,7 @@ h3{
 	display: inline-block;
 	vertical-align: baseline;
 	margin-bottom: 0;
+	font-style: italic;
 }
 .hh-conversation-sec{
 	padding-top: 50px;
@@ -480,6 +480,9 @@ h3{
 .hh-remove-line-headding{
 	text-align: center;
 	padding-bottom: 30px;
+}
+.pgk-hrd.hh-remove-line-headding{
+	padding-bottom: 35px;
 }
 .hh-line-headding h2,
 .hh-remove-line-headding h2{
@@ -857,8 +860,10 @@ h3{
 	opacity: .7;
 }
 .hh-pkg-grd-ftr{
-	padding-left: 30px;
-	padding-right: 5px;
+	    padding-left: 10px;
+	    padding-right: 10px;
+	    display: table;
+	    margin: 0 auto;
 	padding-top: 20px;
 }
 .hh-add-to-cart-btn-img{
@@ -1091,7 +1096,7 @@ h3{
 }
 .dft-sucking-test-sec-bg-hdr h2{
 	margin: 0;
-	font-family: 'calisMTbol';
+	font-family: 'Calisto MT';
 }
 .dft-sucking-test-sec-hdr h1{
 	font-size: 50px;
@@ -1116,6 +1121,15 @@ h3{
 }
 .dft-sky-sec-2 .smile-couple-img {
     margin-top: 50px;
+}
+.dft-sucking-test-sec-hdr h1 br + br{
+	display: none;
+}
+span.prName,
+i.prName{
+	display: inline-block;
+	font-weight: normal;
+	font-style: normal;
 }
 @media(max-width: 1199px){
 	.hide-md{
@@ -1184,6 +1198,16 @@ h3{
 	}
 	.hh-pkg-grd-col-fea-img div img{
 		max-height: 270px;
+	}
+	.smfullwidth .col-sm-5,
+	.smfullwidth .col-sm-7{
+		width: 100%!important;
+	}
+	.hh-offering-hug-img-col {
+	    padding-bottom: 25px;
+	}
+	.smfullwidth .hh-offering-hug-des-col br{
+		display: none;
 	}
 }
 @media(max-width: 1024px){
@@ -1283,6 +1307,38 @@ h3{
 	    text-align: left;
 	    margin-left: -25px;
 	}
+	.smfullwidth .col-sm-6,
+	.smfullwidth .col-sm-5,
+	.smfullwidth .col-sm-7{
+		width: 100%!important;
+	}
+	.smfullwidth .dft-sucking-test-sec-col-img,
+	.smfullwidth .hair-style-img,
+	.smfullwidth .smile-couple-img,
+	.smfullwidth .smile-img-02,
+	.smfullwidth .dft-sec-des-img{
+		text-align: center!important;
+		margin-left: 0!important;
+		margin-right: 0!important;
+		padding-left: 0!important;
+		padding-right: 0!important;
+	}
+	.hh-health-risks-sec .hair-style-img, 
+	.potatovegetablesroot-img, 
+	.beauty-seekers-img{
+	    margin-bottom: 20px;
+	    text-align: center;
+	}
+	.dft-sky-sec-2 .smile-couple-img{
+		margin-top: 0;
+		margin-bottom: 20px;
+	}
+	.hh-offering-hug-img-col {
+	    padding-bottom: 25px;
+	}
+	.smfullwidth .hh-offering-hug-des-col br{
+		display: none;
+	}
 }
 @media(max-width: 900px){
 
@@ -1346,6 +1402,9 @@ h3{
 	}
 	.dft-sucking-test-sec-hdr h1 br{
 		display: none;
+	}
+	.dft-sucking-test-sec-hdr h1 br + br{
+		display: initial;
 	}
 	p {
 		margin-bottom: 20px;
@@ -1481,10 +1540,11 @@ h3{
 		margin-top: 0;
 	}
 	.hh-pkg-grd-ftr {
-		padding-left: 31px;
-		padding-right: 5px;
-		max-width: 350px;
-		margin: 0 auto;
+	    padding-left: 5px;
+	    padding-right: 5px;
+	    max-width: 350px;
+	    display: table;
+	    margin: 0 auto;
 	}
 	.hh-pkg-sec-hdr h2 {
 		margin-bottom: 30px;
